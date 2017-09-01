@@ -1,9 +1,9 @@
-<testsuite name="test_maven-test-suite" time="0.405" failures="0" errors="0" skipped="0" tests="1">
+<testsuite name="test_maven-test-suite" time="0.718" failures="0" errors="0" skipped="0" tests="1">
   <properties>
     <property key="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property key="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
     <property key="java.vm.version" value="25.111-b14"/>
-    <property key="maven.multiModuleProjectDirectory" value="F:\Mule Work Space\Maven and CI\test_maven"/>
+    <property key="maven.multiModuleProjectDirectory" value="F:\Mule Work Space\Maven and CI\mule_maven_ci_test"/>
     <property key="java.vm.vendor" value="Oracle Corporation"/>
     <property key="java.vendor.url" value="http://java.oracle.com/"/>
     <property key="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property key="sun.java.launcher" value="SUN_STANDARD"/>
     <property key="sun.os.patch.level" value=""/>
     <property key="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property key="user.dir" value="F:\Mule Work Space\Maven and CI\test_maven"/>
+    <property key="user.dir" value="F:\Mule Work Space\Maven and CI\mule_maven_ci_test"/>
     <property key="java.runtime.version" value="1.8.0_111-b14"/>
     <property key="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property key="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
@@ -63,7 +63,7 @@
     <property key="sun.desktop" value="windows"/>
     <property key="sun.cpu.isalist" value="amd64"/>
     <property key="mule.testingMode" value="true"/>
-    <property key="mule.working.dir" value="F:\Mule Work Space\Maven and CI\test_maven\target\.mule"/>
+    <property key="mule.working.dir" value="F:\Mule Work Space\Maven and CI\mule_maven_ci_test\target\.mule"/>
   </properties>
-  <testcase time="0.117" name="test_maven-test-suite-mule_maven_ci_testTest" classname="test_maven-test-suite"/>
+  <testcase time="0.078" name="test_maven-test-suite-mule_maven_ci_testTest" classname="test_maven-test-suite"/>
 </testsuite>

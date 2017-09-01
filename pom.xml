@@ -4,10 +4,10 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mycompany</groupId>
-	<artifactId>test_maven</artifactId>
+	<artifactId>mulemavencitest</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>mule</packaging>
-	<name>Mule test_maven Application</name>
+	<name>Mule mulemavencitest Application</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -75,6 +75,30 @@
 						</formats>
 					</coverage>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.mule.tools.maven</groupId>
+				<artifactId>mule-maven-plugin</artifactId>
+				<version>2.0</version>
+				<configuration>
+					<deploymentType>cloudhub</deploymentType>
+					<!-- muleVersion is the runtime version as it appears on the CloudHub 
+						interface -->
+					<muleVersion>3.8.5</muleVersion>
+					<username>abdulrajak86</username>
+					<password>Password123</password>
+					<redeploy>true</redeploy>
+					<environment>SANDBOX</environment>
+				</configuration>
+				<executions>
+					<execution>
+						<id>deploy</id>
+						<phase>deploy</phase>
+						<goals>
+							<goal>deploy</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 		<testResources>

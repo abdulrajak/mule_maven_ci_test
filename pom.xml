@@ -87,8 +87,9 @@
 					<muleVersion>3.8.5</muleVersion>
 					<username>abdulrajak86</username>
 					<password>Password123</password>
+					<workerType>Micro</workerType>
 					<redeploy>true</redeploy>
-					<environment>SANDBOX</environment>
+					<environment>Sandbox</environment>
 				</configuration>
 				<executions>
 					<execution>
